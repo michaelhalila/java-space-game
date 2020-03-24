@@ -10,7 +10,6 @@ import java.util.Random;
 public class MoveLogic {
 
     private Random rng;
-    boolean goRight = false;
     
     public MoveLogic() {
         this.rng = new Random();
