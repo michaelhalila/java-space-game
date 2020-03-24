@@ -1,3 +1,7 @@
+
+//this generates an array of move orders for enemy ships
+
+
 package fallinginvaders;
 
 import java.util.ArrayList;
