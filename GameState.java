@@ -1,3 +1,7 @@
+
+//this keeps track of score and game over status
+
+
 package fallinginvaders;
 
 /**
