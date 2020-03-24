@@ -449,6 +449,8 @@ public class FallingInvaders extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+    
+    //method for drawing an explosion, where the size of the explosion is relative to the size of the object exploding
 
     public Circle drawExplosion(Craft thing, Pane pane, ArrayList<Circle> explosions) {
         Point point = new Point(thing.getX(), thing.getY());
@@ -468,6 +470,8 @@ public class FallingInvaders extends Application {
 
         return explosion;
     }
+    
+    //method for checking whether the player ship is in one of the three defined zones of the game area
     
     public boolean playerShipInZone(int playerShipX, int zone) {
         if (zone == 1) {
