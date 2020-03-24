@@ -1,3 +1,6 @@
+
+//EnemyCommand is an object that keeps track of how many asteroids and enemy ships are in the game, and spawns more of them if necessary.
+
 package fallinginvaders;
 
 import static fallinginvaders.FallingInvaders.FIRSTZONE;
